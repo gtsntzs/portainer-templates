@@ -368,8 +368,8 @@
       "logo": "https://www.wallabag.org/user/themes/boxify/img/logo-wallabag.svg",
       "name": "Wallabag",
       "repository": {
-        "stackfile": "Template/Stack/wallabag.yml",
-        "url": "https://github.com/xneo1/portainer_templates"
+        "stackfile": "Template/testStack/wallabag.yml",
+        "url": "https://github.com/gtsntzs/portainer-templates"
       },
       "platform": "linux",
       "ports": [
