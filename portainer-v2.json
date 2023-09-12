@@ -360,6 +360,25 @@
 				}
 			]
 		},
+    {
+      "categories": [
+        "Tools"
+      ],
+      "description": "wallabag is a web application allowing you to save web pages for later reading. Click, save and read it when you want.",
+      "logo": "https://www.wallabag.org/user/themes/boxify/img/logo-wallabag.svg",
+      "name": "Wallabag",
+      "repository": {
+        "stackfile": "Template/Stack/wallabag.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "platform": "linux",
+      "ports": [
+        "8234:80/tcp"
+      ],
+      "restart_policy": "always",
+      "title": "Wallabag",
+      "type": 3
+    },
 		{
 			"categories": [
 				"Other",
